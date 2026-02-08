@@ -46,7 +46,7 @@ const props = defineProps({
 }
 
 .solid:hover {
-  background-color: color-mix(in srgb, var(--sofy-primary-color) 100%, black 20%);
+  background-color: color-mix(in srgb, var(--sofy-primary-color) 100%, white 20%);
 }
 
 .outline {
@@ -60,6 +60,10 @@ const props = defineProps({
 }
 
 @media (prefers-color-scheme: dark) {
+  .solid:hover {
+    background-color: color-mix(in srgb, var(--sofy-primary-color) 100%, black 20%);
+  }
+
   .outline {
     color: var(--sofy-primary-color);
     border: 1px solid color-mix(in srgb, var(--sofy-secondary-color) 100%, black 70%);
