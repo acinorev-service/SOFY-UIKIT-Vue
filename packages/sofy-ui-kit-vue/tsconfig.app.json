@@ -12,5 +12,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["packages/sofy-ui-kit-vue/src/**/*.ts", "packages/sofy-ui-kit-vue/src/**/*.tsx", "packages/sofy-ui-kit-vue/src/**/*.vue"]
 }
