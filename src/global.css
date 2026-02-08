@@ -1,0 +1,11 @@
+:root {
+    --sofy-primary-color: #000000;
+    --sofy-secondary-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --sofy-primary-color: #FFFFFF;
+        --sofy-secondary-color: #000000;
+    }
+}
