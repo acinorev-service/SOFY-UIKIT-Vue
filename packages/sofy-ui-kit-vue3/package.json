@@ -1,16 +1,21 @@
 {
-  "name": "sofy-ui-kit-vue",
-  "version": "0.0.1-alpha",
-  "author": { 
+  "name": "sofy-ui-kit-vue3",
+  "version": "0.0.1",
+  "author": {
     "name": "fet1sov",
     "email": "prodaugust21@gmail.com"
   },
   "license": "MIT",
   "type": "module",
-  "keywords": ["components", "uikit", "acinorev", "sofy"],
+  "keywords": [
+    "components",
+    "uikit",
+    "acinorev",
+    "sofy"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/acinorev-service/SOFY-UIKIT-Vue.git"
+    "url": "git+https://github.com/acinorev-service/SOFY-UIKIT-Vue.git"
   },
   "files": [
     "dist"
